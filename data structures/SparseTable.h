@@ -2,7 +2,7 @@
 using namespace std;
 
 
-namespace SparseTable {
+namespace DataStructures {
 
 //Credits: Tourist
 // usage SparseTable<int>(vector<int> v,[](int a,int b){return a+b;})

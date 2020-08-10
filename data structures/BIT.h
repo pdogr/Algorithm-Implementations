@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-namespace BIT {
+namespace DataStructures {
 
 // usage BIT<int>(sz,[](int a,int b){return a+b;})
 template<typename T, class F = function<T(T&, T&)>>
