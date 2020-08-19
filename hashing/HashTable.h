@@ -6,7 +6,7 @@
 using namespace __gnu_pbds;
 using namespace std;
 
-namespace HashTable {
+namespace Hashing {
 
 using LL = long long;
 struct custom_hash {
@@ -35,8 +35,8 @@ struct custom_hash {
 };
 
 template <typename T1, typename T2>
-gp_hash_table<T1, T2, custom_hash> New() {
+gp_hash_table<T1, T2, custom_hash> HashTable() {
   gp_hash_table<T1, T2, custom_hash> h;
   return h;
 }
-}  // namespace HashTable
+}  // namespace Hashing
