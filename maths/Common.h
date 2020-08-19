@@ -11,6 +11,16 @@ LL gcd(LL a, LL b) {
   return gcd(b, a % b);
 }
 
+template <typename T>
+T pw(T a, ll b) {
+  T ans{1};
+  while (b) {
+    while (!(b & 1)) b >>= 1, a = (a * a);
+    ans = (ans * a), --b;
+  }
+  return ans;
+}
+
 LL powmod(LL a, LL b, LL mod) {
   LL r = 1;
   while (b) {
