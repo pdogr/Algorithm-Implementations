@@ -2,7 +2,7 @@
 using namespace std;
 
 // https://codeforces.com/blog/entry/54090
-namespace LinearSieve {
+namespace NT {
 
 vector<int> GetPrimes(int M) {
   vector<int> prime;
@@ -57,4 +57,4 @@ vector<int> GetMu(int M) {
   return mu;
 }
 
-};  // namespace LinearSieve
+};  // namespace NT

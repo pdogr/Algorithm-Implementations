@@ -70,8 +70,6 @@ I128 SumOfPrimes(LL M) {
       if (v > MM) {
         Sb[v] -= (I128)p * del;
       } else {
-        dawwda;
-
         Ss[v] -= (I128)p * del;
       }
     }
